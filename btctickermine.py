@@ -4,6 +4,15 @@ from PIL import ImageFont
 from PIL import ImageDraw
 import sys
 sys.path.append(r'lib')
+
+import signal
+import epd2in7b
+import epdconfig
+import time
+from PIL import Image, ImageDraw, ImageFont
+import traceback
+
+import pyowm
 import currency
 import os
 import sys
@@ -24,14 +33,6 @@ import decimal
 
 
 
-import signal
-import epd2in7b
-import epdconfig
-import time
-from PIL import Image, ImageDraw, ImageFont
-import traceback
-
-import pyowm
 
 if sys.version_info[0] < 3:
     raise Exception("Must be using Python 3")
