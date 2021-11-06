@@ -7,7 +7,6 @@ import os
 import sys
 import logging
 import RPi.GPIO as GPIO
-from waveshare_epd import epd2in7
 import time
 import requests
 import urllib, json
