@@ -2,17 +2,6 @@
 from PIL import Image, ImageOps
 from PIL import ImageFont
 from PIL import ImageDraw
-import sys
-sys.path.append(r'lib')
-
-import signal
-import epd2in7b
-import epdconfig
-import time
-from PIL import Image, ImageDraw, ImageFont
-import traceback
-
-import pyowm
 import currency
 import os
 import sys
@@ -31,7 +20,17 @@ import textwrap
 import argparse
 import decimal
 
+import sys
+sys.path.append(r'lib')
+import signal
+import epd2in7b
+import epdconfig
+import time
+from PIL import Image, ImageDraw, ImageFont
+import traceback
 
+
+import pyowm
 
 
 if sys.version_info[0] < 3:
