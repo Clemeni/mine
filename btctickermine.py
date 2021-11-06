@@ -2,6 +2,8 @@
 from PIL import Image, ImageOps
 from PIL import ImageFont
 from PIL import ImageDraw
+import sys
+sys.path.append(r'lib')
 import currency
 import os
 import sys
@@ -20,8 +22,7 @@ import textwrap
 import argparse
 import decimal
 
-import sys
-sys.path.append(r'lib')
+
 
 import signal
 import epd2in7b
