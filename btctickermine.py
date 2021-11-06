@@ -20,6 +20,7 @@ import textwrap
 import argparse
 import decimal
 
+import sys
 sys.path.append(r'lib')
 
 import signal
